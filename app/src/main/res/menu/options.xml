@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/option_welcome"
+          android:title="@string/option_welcome"
+          android:icon="@drawable/welcome_icon"/>
+
+    <item android:id="@+id/option_about"
+          android:title="@string/option_about"
+          android:icon="@drawable/about"/>
+
+    <item android:id="@+id/option_options"
+          android:title="@string/option_options"
+          android:icon="@drawable/options_selected">
+        <menu>
+            <item android:id="@+id/option_options_theme"
+                  android:title="@string/option_options_theme"
+                  android:icon="@drawable/theme_icon"/>
+            <item android:id="@+id/option_options_sound"
+                  android:title="@string/option_options_sound"
+                  android:icon="@drawable/sound_icon"/>
+        </menu>
+    </item>
+
+    <item android:id="@+id/option_exit"
+          android:title="@string/option_exit"
+          android:icon="@drawable/exit02"/>
+</menu>

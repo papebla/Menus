@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/ctop_red"
+              android:title="@string/ctop_red"/>
+        <item android:id="@+id/ctop_green"
+              android:title="@string/ctop_green"/>
+        <item android:id="@+id/ctop_blue"
+              android:title="@string/ctop_blue"/>
+    </group>
+</menu>
